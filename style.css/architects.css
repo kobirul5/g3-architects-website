@@ -244,8 +244,11 @@ main section {
         width: 100%;
     }
     .experience-badge{
-        margin-top: 20px;
-        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 100px;
     }
 }
 
