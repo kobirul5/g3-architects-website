@@ -244,10 +244,6 @@ main section {
         width: 100%;
     }
     .experience-badge{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         margin: 100px;
     }
 }
@@ -255,7 +251,8 @@ main section {
 /* medium size style */
 
 @media screen and (min-width:576px) and (max-width: 992px){
-    .feature{
+    .feature,
+    .feature-enjoy{
         flex-direction: column;
     }
     .feature-container{
@@ -270,5 +267,16 @@ main section {
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
         gap: 20px;
+    }
+    .experience-badge{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+        margin: 0 auto;
+    }
+    .experience-badge span{
+        margin: 0px;
     }
 }
