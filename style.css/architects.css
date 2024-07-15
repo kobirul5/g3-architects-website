@@ -146,6 +146,24 @@ main section {
     margin-bottom: 0;
 }
 
+.experience-badge{
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: rgb(255, 144, 14);
+    width: 342px;
+    height: 200px;
+    padding: 45px 42px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-left: -92px;
+    margin-top: -123px;
+}
+#experience-years{
+    font-size: 4rem;
+    font-weight: 700;
+
+}
 
 
 /* facts related style */
@@ -202,7 +220,8 @@ main section {
 @media screen and (max-width: 576px){
     .navbar,
     .nav-links,
-    .feature{
+    .feature,
+    .feature-enjoy{
         flex-direction: column;
     }
     .feature-img,
@@ -220,6 +239,13 @@ main section {
     .sponsor-companies{
         justify-items: center;
         gap: 20px;
+    }
+    .feature-enjoy img{
+        width: 100%;
+    }
+    .experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
     }
 }
 
